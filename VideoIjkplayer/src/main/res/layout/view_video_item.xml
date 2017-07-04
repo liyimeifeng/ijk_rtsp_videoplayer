@@ -7,7 +7,7 @@
     android:background="@android:color/black"
     >
 
-    <com.dfsx.videoijkplayer.media.IjkVideoView
+    <com.dftc.videoijkplayer.media.IjkVideoView
         android:id="@+id/main_video"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.dfsx.videoijkplayer.VSeekBar
+        <com.dftc.videoijkplayer.VSeekBar
             android:id="@+id/sound_seek"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.dfsx.videoijkplayer.VSeekBar
+        <com.dftc.videoijkplayer.VSeekBar
             android:id="@+id/brightness_seek"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"

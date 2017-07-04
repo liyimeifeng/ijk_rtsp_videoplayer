@@ -10,7 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import com.dfsx.videoijkplayer.VideoPlayView;
+import com.dftc.videoijkplayer.VideoPlayView;
 
 /**
  * Created by liuwb on 2017/1/11.

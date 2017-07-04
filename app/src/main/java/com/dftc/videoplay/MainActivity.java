@@ -6,17 +6,18 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
-import com.dfsx.videoijkplayer.VideoPlayView;
+import com.dftc.videoijkplayer.VideoPlayView;
 
 public class MainActivity extends AbsVideoScreenSwitchActivity {
 
     private FrameLayout videoContainer;
 
     private EditText editVideoUrl;
-//    private String url = "rtsp://192.168.2.67:8554/MainStream";
+//    private String url = "rtsp://192.168.2.67:8554/MainStream";       //监控摄像头测试可行
 //    private String url = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f30.mp4";   //测试可行
 //    private String url = "rtsp://192.168.6.77:8554/730446.sdp";       //测试可行
-    private String url = "file:///storage/emulated/0/Download/video.mp4";
+    private String url = "file:///storage/emulated/0/Download/video.mp4";       //本地普通MP4文件，测试可行
+    private String URl = "";    //本地高清视频
     private Button btnPlay;
 
     @Override
@@ -28,7 +29,6 @@ public class MainActivity extends AbsVideoScreenSwitchActivity {
         editVideoUrl = (EditText) findViewById(R.id.edit_video_url);
         btnPlay = (Button) findViewById(R.id.btn_start);
         editVideoUrl.setText(url);
-//        editVideoUrl.setText("rtsp://rtsp-v3-spbtv.msk.spbtv.com/spbtv_v3_1/214_110.sdp");
         btnPlay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
