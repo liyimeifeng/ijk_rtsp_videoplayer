@@ -22,5 +22,4 @@ It could play rtsp stream by use ijkplayer
                     ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_CODEC, "skip_loop_filter", 48);
 
                     ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_CODEC, "skip_frame", 0);
- 效果图
-![image](https://github.com/bowen919446264/rtsp_player/blob/master/device-2017-05-15-143802.png)
+
