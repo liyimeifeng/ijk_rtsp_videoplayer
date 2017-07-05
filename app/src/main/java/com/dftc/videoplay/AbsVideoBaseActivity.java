@@ -14,7 +14,7 @@ import com.dftc.videoijkplayer.VideoPlayView;
 
 /**
  */
-public abstract class AbsVideoScreenSwitchActivity extends FragmentActivity {
+public abstract class AbsVideoBaseActivity extends FragmentActivity {
     protected VideoPlayView videoPlayer;
 
     private ViewGroup portraitVideoContainer;
@@ -164,13 +164,13 @@ public abstract class AbsVideoScreenSwitchActivity extends FragmentActivity {
 
     @Override
     protected void onPause() {
+        videoPlayer.release();
         super.onPause();
         clearVideoPlayStatus();
         if (videoPlayer.isPlay()) {
             saveVideoPlayStatus();
             videoPlayer.pause();
         } else if (!videoPlayer.isInPlaybackState()) {
-            videoPlayer.release();
         }
     }
 

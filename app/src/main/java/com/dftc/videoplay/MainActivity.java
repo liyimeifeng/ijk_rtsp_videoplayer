@@ -8,16 +8,16 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import com.dftc.videoijkplayer.VideoPlayView;
 
-public class MainActivity extends AbsVideoScreenSwitchActivity {
+public class MainActivity extends AbsVideoBaseActivity {
 
     private FrameLayout videoContainer;
     private Button btnPlay;
     private EditText editVideoUrl;
 
-//    private String url = "rtsp://192.168.2.67:8554/MainStream";       //监控摄像头测试可行
+    private String url = "rtsp://192.168.2.67:8554/MainStream";       //监控摄像头测试可行
 //    private String url = "http://9890.vod.myqcloud.com/9890_4e292f9a3dd011e6b4078980237cc3d3.f30.mp4";   //测试可行
 //    private String url = "rtsp://192.168.6.77:8554/730446.sdp";       //测试可行
-    private String url = "file:///storage/emulated/0/Download/thor-mp4.mp4";    //本地高清mp4视频，测试可行
+//    private String url = "file:///storage/emulated/0/Download/thor-mp4.mp4";    //本地高清mp4视频，测试可行
 //    private String url = "file:///storage/emulated/0/Download/rmvb-test.rmvb";    //rmvb可行
 //    private String url = "file:///storage/emulated/0/Download/avi-test.avi";      //avi可行
 //        private String url = "file:///storage/emulated/0/Download/split.avi";      //avi可行
@@ -36,9 +36,8 @@ public class MainActivity extends AbsVideoScreenSwitchActivity {
             @Override
             public void onClick(View v) {
                 String url = editVideoUrl.getText().toString();
-                if (!TextUtils.isEmpty(url)) {
                     videoPlayer.start(url);
-                }
+
             }
         });
     }

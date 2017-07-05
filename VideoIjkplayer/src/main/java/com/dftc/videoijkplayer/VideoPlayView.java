@@ -58,7 +58,7 @@ public class VideoPlayView extends RelativeLayout implements MediaPlayer.OnInfoL
                 mediaController.onCompletion();
                 if (mediaController.getScreenOrientation((Activity) mContext)
                         == ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE) {
-                    //横屏播放完毕，重置
+                    //横屏播放完毕，重置为竖屏
                     ((Activity) mContext).setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
                     ViewGroup.LayoutParams layoutParams = getLayoutParams();
                     layoutParams.height = ViewGroup.LayoutParams.MATCH_PARENT;

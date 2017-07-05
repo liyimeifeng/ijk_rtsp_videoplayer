@@ -39,7 +39,6 @@ import android.widget.MediaController;
 import android.widget.TableLayout;
 
 import com.dftc.videoijkplayer.R;
-import com.dftc.videoijkplayer.ksyplayer.IjkKsyMediaPlayer;
 import tv.danmaku.ijk.media.exo.IjkExoMediaPlayer;
 import tv.danmaku.ijk.media.player.AndroidMediaPlayer;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -1004,9 +1003,7 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
             }
             break;
             case Settings.PV_PLAYER__ksyMediaPlayer: {
-                IjkKsyMediaPlayer ijkKsyMediaPlayer = new
-                        IjkKsyMediaPlayer(mAppContext, true, 1);
-                mediaPlayer = ijkKsyMediaPlayer;
+
             }
             break;
             case Settings.PV_PLAYER__IjkMediaPlayer:
