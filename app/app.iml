@@ -108,8 +108,10 @@
     <orderEntry type="library" exported="" name="appcompat-v7-23.1.1" level="project" />
     <orderEntry type="module" module-name="VideoIjkplayer" exported="" />
     <orderEntry type="library" exported="" name="android-android-23" level="project" />
+    <orderEntry type="library" exported="" name="ijkplayer-exo-0.7.4" level="project" />
     <orderEntry type="library" exported="" name="libksyplayer" level="project" />
-    <orderEntry type="library" exported="" name="libksystat" level="project" />
     <orderEntry type="library" exported="" name="exoplayer-r1.5.11" level="project" />
+    <orderEntry type="library" exported="" name="libksystat" level="project" />
+    <orderEntry type="library" exported="" name="ijkplayer-java-0.7.4" level="project" />
   </component>
 </module>

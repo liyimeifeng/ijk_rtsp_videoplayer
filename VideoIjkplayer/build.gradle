@@ -35,12 +35,9 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:23.1.1'
 
-    compile project(':ijkplayer-java')
-    compile project(':ijkplayer-armv7a')
-    compile project(':ijkplayer-exo')
-//    compile project(':ijkplayer-x86')
-//    compile project(':ijkplayer-armv5')
-
+//    compile project(':ijkplayer-armv7a')
+    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.7.4'
+    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.7.4'
 //    compile 'tv.danmaku.ijk.media:ijkplayer-java:0.6.2'
 //    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.6.2'
 //    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.6.2'

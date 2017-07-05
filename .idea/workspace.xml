@@ -11,17 +11,350 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3751f0c-f7b6-4f49-975b-1ec3824d8280" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ijkplayer_exo_0_7_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ijkplayer_java_0_7_4.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/ijkplayer-armv7a.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/androidTest/java/tv/danmaku/ijk/media/player_armv7a/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/java/tv/danmaku/ijk/media/player_armv7a/Pragma.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/jni/Android.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/jni/Application.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/jni/ffmpeg/Android.mk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libandroid-ndk-profiler.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libcpufeatures.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libijkffmpeg.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libijkj4a.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libijkplayer.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libijksdl.so" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/libyuv_static.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/android-ndk-profiler/prof.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/android-ndk-profiler/prof.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/cpufeatures/cpu-features.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/cpufeatures/cpu-features.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/AudioTrack.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/AudioTrack.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/MediaCodec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/MediaCodec.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/MediaFormat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/MediaFormat.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/PlaybackParams.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/media/PlaybackParams.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/os/Build.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/os/Build.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/os/Bundle.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/android/os/Bundle.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/nio/Buffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/nio/Buffer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/nio/ByteBuffer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/nio/ByteBuffer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/util/ArrayList.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/java/util/ArrayList.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/IjkMediaPlayer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/IjkMediaPlayer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/misc/IIjkIOHttp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/misc/IIjkIOHttp.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/misc/IMediaDataSource.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/class/tv/danmaku/ijk/media/player/misc/IMediaDataSource.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/j4a_allclasses.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/j4a_allclasses.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/j4a_base.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4a/j4a_base.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4au/class/android/media/AudioTrack.util.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4au/class/android/media/AudioTrack.util.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4au/class/java/nio/ByteBuffer.util.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkj4a/j4au/class/java/nio/ByteBuffer.util.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ffmpeg_api_jni.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ffmpeg_api_jni.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ijkplayer_android.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ijkplayer_android.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ijkplayer_jni.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/ijkplayer_jni.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/pipeline/ffpipeline_android.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/pipeline/ffpipeline_android.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/pipeline/ffpipenode_android_mediacodec_vdec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/android/pipeline/ffpipenode_android_mediacodec_vdec.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_cmdutils.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_cmdutils.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffpipeline.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffpipeline.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffpipenode.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffpipenode.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffplay.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ff_ffplay.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/allformats.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/allformats.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkasync.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkasync.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkio.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioandroidio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioandroidio.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioapplication.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioapplication.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkiocache.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkiocache.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioffio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioffio.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkiomanager.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkiomanager.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioprotocol.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkioprotocol.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijklivehook.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijklivehook.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijklongurl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijklongurl.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkmediadatasource.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkmediadatasource.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijksegment.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijksegment.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkurlhook.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavformat/ijkurlhook.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkdict.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkdict.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkfifo.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkfifo.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkstl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkstl.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkthreadpool.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkthreadpool.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijktree.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijktree.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkutils.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkavutil/ijkutils.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkmeta.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkmeta.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkplayer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/ijkplayer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/pipeline/ffpipeline_ffplay.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/pipeline/ffpipeline_ffplay.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/pipeline/ffpipenode_ffplay_vdec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijkplayer/pipeline/ffpipenode_ffplay_vdec.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/android_audiotrack.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/android_audiotrack.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/android_nativewindow.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/android_nativewindow.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_android_jni.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_android_jni.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_aout_android_audiotrack.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_aout_android_audiotrack.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_aout_android_opensles.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_aout_android_opensles.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_dummy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_dummy.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_internal.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_internal.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_java.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediacodec_java.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediadef.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediadef.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediaformat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediaformat.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediaformat_java.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_codec_android_mediaformat_java.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_android_nativewindow.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_android_nativewindow.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_android_surface.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_android_surface.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_overlay_android_mediacodec.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/android/ijksdl_vout_overlay_android_mediacodec.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/dummy/ijksdl_vout_dummy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/dummy/ijksdl_vout_dummy.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ffmpeg/abi_all/image_convert.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ffmpeg/abi_all/image_convert.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ffmpeg/ijksdl_vout_overlay_ffmpeg.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ffmpeg/ijksdl_vout_overlay_ffmpeg.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/color.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/color.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/common.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/rgb.fsh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/rgb.fsh.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/yuv420p.fsh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/yuv420p.fsh.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/yuv444p10le.fsh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/fsh/yuv444p10le.fsh.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_rgb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_rgb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_yuv420p.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_yuv420p.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_yuv444p10le.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/renderer_yuv444p10le.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/shader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/shader.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/vsh/mvp.vsh.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/gles2/vsh/mvp.vsh.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_aout.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_aout.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_audio.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_audio.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_egl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_egl.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_error.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_error.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_mutex.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_mutex.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_stdinc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_stdinc.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_thread.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_thread.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_timer.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_timer.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_vout.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/ijksdl/ijksdl_vout.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_common.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_neon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_neon.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_posix.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/compare_posix.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_argb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_argb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_from.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_from.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_from_argb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_from_argb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_to_argb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_to_argb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_to_i420.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/convert_to_i420.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/cpu_id.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/cpu_id.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/format_conversion.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/format_conversion.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/planar_functions.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/planar_functions.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_argb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_argb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_mips.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_mips.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_neon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/rotate_neon.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_any.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_any.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_common.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_mips.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_mips.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_neon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_neon.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_posix.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/row_posix.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_argb.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_argb.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_common.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_mips.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_mips.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_neon.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_neon.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_posix.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/scale_posix.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/video_common.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/obj/local/armeabi-v7a/objs/yuv_static/source/video_common.o.d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/androidTest/java/tv/danmaku/ijk/media/exo/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/IjkExoMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/EventLogger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/SmoothStreamingTestMediaDrmCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/player/DashRendererBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/player/DemoPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/player/ExtractorRendererBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/player/HlsRendererBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/java/tv/danmaku/ijk/media/exo/demo/player/SmoothStreamingRendererBuilder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-exo/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/androidTest/java/tv/danmaku/ijk/media/player/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/AbstractMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/AndroidMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/ISurfaceTextureHolder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/ISurfaceTextureHost.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IjkLibLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IjkMediaCodecInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IjkMediaMeta.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IjkMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/IjkTimedText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/MediaInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/MediaPlayerProxy.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/TextureMediaPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/annotations/AccessedByNative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/annotations/CalledByNative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/exceptions/IjkMediaException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/ffmpeg/FFmpegApi.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/AndroidMediaFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/AndroidTrackInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/IAndroidIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/IMediaDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/IMediaFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/ITrackInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/IjkMediaFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/misc/IjkTrackInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/pragma/DebugLog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/pragma/Pragma.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ijkplayer-java/src/main/res/values/strings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_VideoIjkplayer_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exoplayer_r1_5_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exoplayer_r1_5_11.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoIjkplayer/VideoIjkplayer.iml" afterPath="$PROJECT_DIR$/VideoIjkplayer/VideoIjkplayer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoIjkplayer/build.gradle" afterPath="$PROJECT_DIR$/VideoIjkplayer/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/libs/armeabi-v7a/libijkffmpeg.so" afterPath="$PROJECT_DIR$/VideoIjkplayer/src/main/jniLibs/armeabi-v7a/libijkffmpeg.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/libs/armeabi-v7a/libijkplayer.so" afterPath="$PROJECT_DIR$/VideoIjkplayer/src/main/jniLibs/armeabi-v7a/libijkplayer.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/libs/armeabi-v7a/libijksdl.so" afterPath="$PROJECT_DIR$/VideoIjkplayer/src/main/jniLibs/armeabi-v7a/libijksdl.so" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ijkplayer-armv7a/src/main/libs/armeabi-v7a/libijksoundtouch.so" afterPath="$PROJECT_DIR$/VideoIjkplayer/src/main/jniLibs/armeabi-v7a/libijksoundtouch.so" />
     </list>
     <ignored path="rtsp_ijkplayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,49 +390,94 @@
       <file leaf-file-name="VideoPlayView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VideoPlayView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+            <state relative-caret-position="-527">
+              <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
               <folding>
+                <element signature="e#1603#2538#0" expanded="true" />
+                <element signature="e#2537#2538#0" expanded="true" />
                 <element signature="e#2580#2849#0" expanded="true" />
                 <element signature="e#2848#2849#0" expanded="true" />
+                <element signature="e#3930#3931#0" expanded="true" />
+                <element signature="e#3975#3976#0" expanded="true" />
+                <element signature="e#5230#5231#0" expanded="true" />
+                <element signature="e#5275#5276#0" expanded="true" />
+                <element signature="e#5311#5312#0" expanded="true" />
+                <element signature="e#5350#5351#0" expanded="true" />
+                <element signature="e#5392#5393#0" expanded="true" />
+                <element signature="e#5445#5446#0" expanded="true" />
+                <element signature="e#5899#7110#0" expanded="true" />
+                <element signature="e#7109#7110#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractMediaPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/AbstractMediaPlayer.java">
+      <file leaf-file-name="VSeekBar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VSeekBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="105" column="60" selection-start-line="105" selection-start-column="60" selection-end-line="105" selection-end-column="60" />
+            <state relative-caret-position="81">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_video_item.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/rtsp_ijkplayer/VideoIjkplayer/unspecified/res/layout/view_video_item.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MediaPlayerProxy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ijkplayer-java/src/main/java/tv/danmaku/ijk/media/player/MediaPlayerProxy.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="258" column="51" selection-start-line="258" selection-start-column="51" selection-end-line="258" selection-end-column="51" />
+            <state relative-caret-position="476">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <element signature="e#8056#8302#0" expanded="true" />
-                <element signature="e#8301#8302#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1610#1899#0" expanded="true" />
+                <element signature="e#1898#1899#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java">
+      <file leaf-file-name="Readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoIjkplayer/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1613#1902#0" expanded="true" />
-                <element signature="e#1901#1902#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VideoIjkplayer/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,70 +495,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IjkVideoView.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/IjkVideoView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="1054" column="63" selection-start-line="1054" selection-start-column="63" selection-end-line="1054" selection-end-column="63" />
-              <folding>
-                <element signature="e#20873#23608#0" expanded="true" />
-                <element signature="e#22278#22336#0" expanded="true" />
-                <element signature="e#22411#22448#0" expanded="true" />
-                <element signature="e#22645#22676#0" expanded="true" />
-                <element signature="e#22718#23425#0" expanded="true" />
-                <element signature="e#23424#23425#0" expanded="true" />
-                <element signature="e#23607#23608#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="libijksdl.so" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ijkplayer-armv7a/src/main/libs/armeabi-v7a/libijksdl.so">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NetChecker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/NetChecker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            <state relative-caret-position="-202">
+              <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1210#1265#0" expanded="true" />
                 <element signature="e#1288#1343#0" expanded="true" />
+                <element signature="e#1515#1743#0" expanded="true" />
+                <element signature="e#1742#1743#0" expanded="true" />
+                <element signature="e#1815#2091#0" expanded="true" />
+                <element signature="e#2090#2091#0" expanded="true" />
+                <element signature="e#2117#2345#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+      <file leaf-file-name="CustomMediaContoller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/CustomMediaContoller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state relative-caret-position="-5049">
+              <caret line="211" column="36" selection-start-line="211" selection-start-column="36" selection-end-line="211" selection-end-column="36" />
               <folding>
-                <element signature="e#908#926#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbsVideoScreenSwitchActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/AbsVideoScreenSwitchActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1841#3091#0" expanded="true" />
+                <element signature="e#3090#3091#0" expanded="true" />
+                <element signature="e#6555#7039#0" expanded="true" />
+                <element signature="e#7038#7039#0" expanded="true" />
+                <element signature="e#7079#8107#0" expanded="true" />
+                <element signature="e#8106#8107#0" expanded="true" />
+                <element signature="e#8147#9225#0" expanded="true" />
+                <element signature="e#9224#9225#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,18 +558,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":app" />
                 <option name="path" value="$PROJECT_DIR$/app" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":ijkplayer-armv7a" />
-                <option name="path" value="$PROJECT_DIR$/ijkplayer-armv7a" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":ijkplayer-exo" />
-                <option name="path" value="$PROJECT_DIR$/ijkplayer-exo" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":ijkplayer-java" />
-                <option name="path" value="$PROJECT_DIR$/ijkplayer-java" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="rtsp_ijkplayer" />
@@ -281,11 +617,6 @@
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-armv7a:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerArmv7aUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
@@ -338,11 +669,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-java:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerJavaUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -524,6 +850,11 @@
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-java:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerJava074Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
@@ -675,6 +1006,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-exo:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerExo074Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -831,11 +1167,6 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-exo:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerExoUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1011,11 +1342,6 @@
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-armv7a:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerArmv7aUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
@@ -1063,11 +1389,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-java:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerJavaUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1232,6 +1553,11 @@
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-java:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerJava074Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
@@ -1368,6 +1694,11 @@
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-exo:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerExo074Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
                 <option name="name" value="androidDependencies" />
@@ -1501,11 +1832,6 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
                 <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-exo:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerExoUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/VideoIjkplayer" />
@@ -1655,11 +1981,6 @@
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-armv7a:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerArmv7aUnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateReleaseAssets" />
               </ExternalTaskPojo>
@@ -1694,11 +2015,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-java:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerJavaUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all device checks using Device Providers and Test Servers." />
@@ -1855,6 +2171,11 @@
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-java:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerJava074Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:23.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72311Library" />
@@ -1996,6 +2317,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseShaders" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare tv.danmaku.ijk.media:ijkplayer-exo:0.7.4" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareTvDanmakuIjkMediaIjkplayerExo074Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
@@ -2148,11 +2474,6 @@
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare rtsp_ijkplayer:ijkplayer-exo:unspecified" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareRtsp_ijkplayerIjkplayerExoUnspecifiedLibrary" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -4140,7 +4461,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="F:\Github\rtsp_ijkplayer" value="10472088587430" />
+        <entry key="F:\Github\rtsp_ijkplayer" value="5996399005391" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -4829,8 +5150,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/AbsVideoScreenSwitchActivity.java" />
         <option value="$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/NetChecker.java" />
         <option value="$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/IjkVideoView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/VideoIjkplayer/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -4998,66 +5321,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jniLibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VideoIjkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jniLibs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="arm64-v8a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="VideoIjkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -5167,144 +5430,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-exo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-armv7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-armv7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-armv7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="armeabi-v7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-armv7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jni" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rtsp_ijkplayer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ijkplayer-armv7a" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5783,17 +5908,17 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33741647" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30846325" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.033407573" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29637527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38059703" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09576838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1325167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2650334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -5823,105 +5948,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1613#1902#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/MeasureHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10599#0" expanded="false" />
-            <element signature="e#1247#1248#0" expanded="false" />
-            <element signature="e#1304#1305#0" expanded="false" />
-            <element signature="e#9171#9172#0" expanded="false" />
-            <element signature="e#9208#9209#0" expanded="false" />
-            <element signature="e#9246#9247#0" expanded="false" />
-            <element signature="e#9284#9285#0" expanded="false" />
-            <element signature="e#9335#9336#0" expanded="false" />
-            <element signature="e#9384#9385#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/IRenderView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#2445#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/IjkVideoView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7667">
-          <caret line="506" column="12" selection-start-line="506" selection-start-column="12" selection-end-line="506" selection-end-column="12" />
-          <folding>
-            <element signature="e#20873#23608#0" expanded="true" />
-            <element signature="e#22278#22336#0" expanded="true" />
-            <element signature="e#22411#22448#0" expanded="true" />
-            <element signature="e#22645#22676#0" expanded="true" />
-            <element signature="e#22718#23425#0" expanded="true" />
-            <element signature="e#23424#23425#0" expanded="true" />
-            <element signature="e#23607#23608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/ksyplayer/IjkKsyMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="162" column="38" selection-start-line="162" selection-start-column="38" selection-end-line="162" selection-end-column="38" />
-          <folding>
-            <element signature="e#1762#1763#0" expanded="false" />
-            <element signature="e#1805#1806#0" expanded="false" />
-            <element signature="e#4170#4171#0" expanded="false" />
-            <element signature="e#4234#4235#0" expanded="false" />
-            <element signature="e#4283#4284#0" expanded="false" />
-            <element signature="e#4343#4344#0" expanded="false" />
-            <element signature="e#4391#4392#0" expanded="false" />
-            <element signature="e#4446#4447#0" expanded="false" />
-            <element signature="e#4623#4624#0" expanded="false" />
-            <element signature="e#4687#4688#0" expanded="false" />
-            <element signature="e#5332#5333#0" expanded="false" />
-            <element signature="e#5390#5391#0" expanded="false" />
-            <element signature="e#5442#5443#0" expanded="false" />
-            <element signature="e#5505#5506#0" expanded="false" />
-            <element signature="e#6467#6468#0" expanded="false" />
-            <element signature="e#6520#6521#0" expanded="false" />
-            <element signature="e#6569#6570#0" expanded="false" />
-            <element signature="e#6625#6626#0" expanded="false" />
-            <element signature="e#6684#6685#0" expanded="false" />
-            <element signature="e#6742#6743#0" expanded="false" />
-            <element signature="e#6806#6807#0" expanded="false" />
-            <element signature="e#6865#6866#0" expanded="false" />
-            <element signature="e#6914#6915#0" expanded="false" />
-            <element signature="e#6974#6975#0" expanded="false" />
-            <element signature="e#7023#7024#0" expanded="false" />
-            <element signature="e#7083#7084#0" expanded="false" />
-            <element signature="e#7267#7268#0" expanded="false" />
-            <element signature="e#7317#7318#0" expanded="false" />
-            <element signature="e#7365#7366#0" expanded="false" />
-            <element signature="e#7420#7421#0" expanded="false" />
-            <element signature="e#7476#7477#0" expanded="false" />
-            <element signature="e#7516#7517#0" expanded="false" />
-            <element signature="e#7577#7578#0" expanded="false" />
-            <element signature="e#7638#7639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/CustomMediaContoller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -5949,6 +5975,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1210#1265#0" expanded="true" />
             <element signature="e#1288#1343#0" expanded="true" />
+            <element signature="e#1515#1743#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1815#2091#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2117#2345#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -6087,14 +6119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/media/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -6149,39 +6173,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VSeekBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#356#357#0" expanded="false" />
-            <element signature="e#393#394#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/CustomMediaContoller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#11216#11217#0" expanded="false" />
-            <element signature="e#11262#11263#0" expanded="false" />
-            <element signature="e#16009#16010#0" expanded="false" />
-            <element signature="e#16038#16039#0" expanded="false" />
-            <element signature="e#16317#16318#0" expanded="false" />
-            <element signature="e#16388#16389#0" expanded="false" />
-            <element signature="e#17223#17224#0" expanded="false" />
-            <element signature="e#17245#17246#0" expanded="false" />
-            <element signature="e#18335#18336#0" expanded="false" />
-            <element signature="e#18386#18387#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6280,8 +6272,8 @@
         <state relative-caret-position="454">
           <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6233#6258#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#6233#6258#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -6314,10 +6306,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="258" column="51" selection-start-line="258" selection-start-column="51" selection-end-line="258" selection-end-column="51" />
-          <folding>
-            <element signature="e#8056#8302#0" expanded="true" />
-            <element signature="e#8301#8302#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6379,38 +6368,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VideoPlayView.java">
+    <entry file="file://$PROJECT_DIR$/ijkplayer-java/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="122" column="38" selection-start-line="122" selection-start-column="38" selection-end-line="122" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ijkplayer-java/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/CustomMediaContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5049">
+          <caret line="211" column="36" selection-start-line="211" selection-start-column="36" selection-end-line="211" selection-end-column="36" />
           <folding>
-            <element signature="e#2580#2849#0" expanded="true" />
-            <element signature="e#2848#2849#0" expanded="true" />
+            <element signature="e#1841#3091#0" expanded="true" />
+            <element signature="e#3090#3091#0" expanded="true" />
+            <element signature="e#6555#7039#0" expanded="true" />
+            <element signature="e#7038#7039#0" expanded="true" />
+            <element signature="e#7079#8107#0" expanded="true" />
+            <element signature="e#8106#8107#0" expanded="true" />
+            <element signature="e#8147#9225#0" expanded="true" />
+            <element signature="e#9224#9225#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/NetChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        <state relative-caret-position="-202">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1210#1265#0" expanded="true" />
             <element signature="e#1288#1343#0" expanded="true" />
+            <element signature="e#1515#1743#0" expanded="true" />
+            <element signature="e#1742#1743#0" expanded="true" />
+            <element signature="e#1815#2091#0" expanded="true" />
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2117#2345#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VideoPlayView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
+          <folding>
+            <element signature="e#1603#2538#0" expanded="true" />
+            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2580#2849#0" expanded="true" />
+            <element signature="e#2848#2849#0" expanded="true" />
+            <element signature="e#3930#3931#0" expanded="true" />
+            <element signature="e#3975#3976#0" expanded="true" />
+            <element signature="e#5230#5231#0" expanded="true" />
+            <element signature="e#5275#5276#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#5350#5351#0" expanded="true" />
+            <element signature="e#5392#5393#0" expanded="true" />
+            <element signature="e#5445#5446#0" expanded="true" />
+            <element signature="e#5899#7110#0" expanded="true" />
+            <element signature="e#7109#7110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/rtsp_ijkplayer/VideoIjkplayer/unspecified/res/layout/view_video_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/src/main/java/com/dftc/videoijkplayer/VSeekBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/Readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dftc/videoplay/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1613#1902#0" expanded="true" />
-            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1610#1899#0" expanded="true" />
+            <element signature="e#1898#1899#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoIjkplayer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
