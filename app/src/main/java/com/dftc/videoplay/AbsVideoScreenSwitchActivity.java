@@ -199,6 +199,10 @@ public abstract class AbsVideoScreenSwitchActivity extends FragmentActivity {
         super.onStop();
     }
 
+
+    /**
+     * 在此停止播放并释放资源
+     */
     @Override
     protected void onDestroy() {
         super.onDestroy();

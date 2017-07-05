@@ -3,30 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\rtsp_ijkplayer\VideoIjkplayer\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_bb06c70c747c40b87a3c4e441dbed58790c6c2f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-exo\0.7.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6db62fb1b3614805891c9d36b5e444e7ce932425">
-        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\tv.danmaku.ijk.media-ijkplayer-exo-0.7.4_67ceac8bfda3181a857f360e6261e7fd3f44534a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_9ab823d35e2bc4e81253af789d743dbc64038404.jar" />
+        sha1="d8513ecbfd6859c863d6f8042777861693fcc9b2">
+        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\rtsp_ijkplayer-VideoIjkplayer-unspecified_d096c2e668b8f9f764435e8ca98f76e7d0acb9d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -36,15 +18,6 @@
         revision="23.0.2"
         sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
         <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_9840555b85d4f3bb303a3c441750c40d7a39be58.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\rtsp_ijkplayer\VideoIjkplayer\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="dddf96bbc9a58455afd5fb5cc8e51469a0d16543">
-        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\rtsp_ijkplayer-VideoIjkplayer-unspecified_d096c2e668b8f9f764435e8ca98f76e7d0acb9d4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +39,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_bb06c70c747c40b87a3c4e441dbed58790c6c2f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\rtsp_ijkplayer\VideoIjkplayer\unspecified\jars\libs\libksyplayer.jar"
         jumboMode="false"
         optimize="true"
@@ -81,6 +63,24 @@
         revision="23.0.2"
         sha1="54ac3fcf79e1221e21d137c1613ad761c416eff2">
         <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\libksystat_feb97f0cadbc6b10652b3dc3bd40bf4b036a4d75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Github\rtsp_ijkplayer\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-exo\0.7.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6db62fb1b3614805891c9d36b5e444e7ce932425">
+        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\tv.danmaku.ijk.media-ijkplayer-exo-0.7.4_67ceac8bfda3181a857f360e6261e7fd3f44534a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="F:\Github\rtsp_ijkplayer\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_9ab823d35e2bc4e81253af789d743dbc64038404.jar" />
     </item>
     <item
         is-multidex="false"

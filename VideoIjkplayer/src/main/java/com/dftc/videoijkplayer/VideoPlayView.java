@@ -113,23 +113,13 @@ public class VideoPlayView extends RelativeLayout implements MediaPlayer.OnInfoL
         }
     }
 
-    private NetChecker netChecker;
 
     private String playPath;
 
     public void start(String path) {
         playPath = path;
-        if (netChecker == null) {
-            netChecker = new NetChecker(mContext, new NetChecker.CheckCallBack() {
-                @Override
-                public void callBack(boolean isCouldPlay) {
-                    if (isCouldPlay) {
-                        startPlayPath(playPath);
-                    }
-                }
-            });
-        }
-        netChecker.checkNet();
+        startPlayPath(playPath);
+
     }
 
     private void startPlayPath(String path) {

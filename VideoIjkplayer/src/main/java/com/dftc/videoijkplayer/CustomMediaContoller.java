@@ -54,7 +54,6 @@ public class CustomMediaContoller implements IMediaController {
     private GestureDetector detector;
 
     private RelativeLayout show;
-    private VSeekBar brightness_seek, sound_seek;
     private LinearLayout brightness_layout, sound_layout;
     private Handler handler = new Handler() {
         @Override
@@ -116,17 +115,13 @@ public class CustomMediaContoller implements IMediaController {
         pauseImage = (ImageView) view.findViewById(R.id.pause_image);
 
         brightness_layout = (LinearLayout) view.findViewById(R.id.brightness_layout);
-        brightness_seek = (VSeekBar) view.findViewById(R.id.brightness_seek);
         sound_layout = (LinearLayout) view.findViewById(R.id.sound_layout);
-        sound_seek = (VSeekBar) view.findViewById(R.id.sound_seek);
         show = (RelativeLayout) view.findViewById(R.id.show);
         seekTxt = (TextView) view.findViewById(R.id.seekTxt);
     }
 
     private void initAction() {
 
-        sound_seek.setEnabled(false);
-        brightness_seek.setEnabled(false);
         isSound = ((AudioManager) context.getSystemService(Context.AUDIO_SERVICE))
                 .getStreamVolume(AudioManager.STREAM_MUSIC) != 0;
         int soundRes = isSound ? R.mipmap.sound_open_icon :
@@ -603,7 +598,6 @@ public class CustomMediaContoller implements IMediaController {
         } else {
             sound.setImageResource(R.mipmap.sound_open_icon);
         }
-        sound_seek.setProgress(i);
     }
 
     /**
@@ -664,7 +658,6 @@ public class CustomMediaContoller implements IMediaController {
         if (brightness_layout.getVisibility() == View.GONE)
             brightness_layout.setVisibility(View.VISIBLE);
 
-        brightness_seek.setProgress((int) (lpa.screenBrightness * 100));
         ((Activity) context).getWindow().setAttributes(lpa);
 
     }
