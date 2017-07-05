@@ -5,7 +5,7 @@ It could play rtsp stream by use ijkplayer 此工程基于IJKPlayer修改 当前
 
 **用下面的方式设置参数，使用硬解码，可减少播放本地视频（如MP4）的卡顿现象**
 
-               String pixelFormat = mSettings.getPixelFormat();
+                    String pixelFormat = mSettings.getPixelFormat();
                     if (TextUtils.isEmpty(pixelFormat)) {
                         ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "overlay-format", IjkMediaPlayer.SDL_FCC_RV32);
                     } else {
