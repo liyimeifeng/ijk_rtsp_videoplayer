@@ -12,7 +12,7 @@ import android.util.Log;
  */
 public class NetChecker {
 
-    public static final String SP_SET_NET_PLAY = "com.dfsx.videoijkplayer.NetNotes_SET_NET_PLAY";
+    public static final String SP_SET_NET_PLAY = "com.dftc.videoijkplayer.NetNotes_SET_NET_PLAY";
 
     private CheckCallBack checkCallBack;
     private Context context;
@@ -96,7 +96,8 @@ public class NetChecker {
         Log.e("=======", "getConnectivityStatus: "+ activeNetwork );
         if (null != activeNetwork) {
             Log.e("=======", "getConnectivityStatus: "+  activeNetwork.getType());
-            if (activeNetwork.getType() == ConnectivityManager.TYPE_ETHERNET || activeNetwork.getType() == ConnectivityManager.TYPE_WIFI)     //华为默认为TYPE_WIFI但是中物机器默认为TYPE_ETHERNET
+            //华为默认为TYPE_WIFI，但是中物机器默认为TYPE_ETHERNET
+            if (activeNetwork.getType() == ConnectivityManager.TYPE_ETHERNET || activeNetwork.getType() == ConnectivityManager.TYPE_WIFI)
                 return 1;
 
             if (activeNetwork.getType() == ConnectivityManager.TYPE_MOBILE)

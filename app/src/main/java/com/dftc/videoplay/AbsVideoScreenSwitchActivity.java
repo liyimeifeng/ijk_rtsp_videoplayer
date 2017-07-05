@@ -13,7 +13,6 @@ import android.widget.FrameLayout;
 import com.dftc.videoijkplayer.VideoPlayView;
 
 /**
- * Created by liuwb on 2017/1/11.
  */
 public abstract class AbsVideoScreenSwitchActivity extends FragmentActivity {
     protected VideoPlayView videoPlayer;
