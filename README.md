@@ -3,7 +3,7 @@ rtsp_player
 
 It could play rtsp stream by use ijkplayer 此工程基于IJKPlayer修改 当前IJKPlayer使用的库版本为k0.7.9 修改IJKPlayer的so文件支持rtsp 协议。 可以根据具体的需求修改参数
 
-**用下面的方式设置参数，使用硬解码，可减少播放本地视频（如MP4）的卡顿现象
+**用下面的方式设置参数，使用硬解码，可减少播放本地视频（如MP4）的卡顿现象**
 
                String pixelFormat = mSettings.getPixelFormat();
                     if (TextUtils.isEmpty(pixelFormat)) {
