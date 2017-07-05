@@ -1,23 +1,13 @@
 package com.dftc.videoijkplayer;
 
 import android.app.Activity;
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.content.pm.ActivityInfo;
-import android.media.AudioManager;
-import android.net.Uri;
-import android.provider.Settings;
-import android.util.DisplayMetrics;
+
 import android.util.Log;
-import android.view.GestureDetector;
-import android.view.Surface;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.dftc.videoijkplayer.media.IjkVideoView;
 
 import tv.danmaku.ijk.media.player.IMediaPlayer;
-import tv.danmaku.ijk.media.player.IjkMediaPlayer;
+
 
 /**
  * ijkplayer视频播放管理类
@@ -45,15 +35,14 @@ public class PlayerManager {
     /**
      * 开始播放
      * @param videoPath     本地视频路径，rtsp流链接
-     * @param ijkVideoView
      */
     public void play(String videoPath,PlayerStateListener listener) {
         url  = videoPath;
+        this.playerStateListener = listener;
         long currentTime = System.currentTimeMillis();
         playerStateListener.onStart(true,currentTime);
         ijkVideoView.setVideoPath(url);
         ijkVideoView.start();
-
 
         ijkVideoView.setOnCompletionListener(new IMediaPlayer.OnCompletionListener() {
             @Override
@@ -108,6 +97,10 @@ public class PlayerManager {
 
     }
 
+    public PlayerManager setPlayerStateListener(PlayerStateListener Listener){
+        this.playerStateListener = Listener;
+        return this;
+    }
 
     public interface PlayerStateListener{
         /**

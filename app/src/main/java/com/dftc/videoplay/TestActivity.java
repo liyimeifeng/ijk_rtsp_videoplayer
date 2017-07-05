@@ -32,19 +32,20 @@ public class TestActivity extends AppCompatActivity {
         restartButton = (Button)findViewById(R.id.restart_Button);
 //        playerManager.play(url);
         playerManager = PlayerManager.getInstance(this);
+//        playerManager.setPlayerStateListener()
         playerManager.play(url, new PlayerManager.PlayerStateListener() {
             @Override
-            public void onComplete() {
+            public void onStart(boolean isStart, long currentTime) {
 
             }
 
             @Override
-            public void onError() {
+            public void onComplete(boolean isFinish, long currentTime) {
 
             }
 
             @Override
-            public void onStart(boolean start, long currentTime) {
+            public void onError(Object info, Object result) {
 
             }
         });
@@ -64,17 +65,17 @@ public class TestActivity extends AppCompatActivity {
             public void onClick(View v) {
                 playerManager.play(url2, new PlayerManager.PlayerStateListener() {
                     @Override
-                    public void onComplete() {
+                    public void onStart(boolean isStart, long currentTime) {
 
                     }
 
                     @Override
-                    public void onError() {
+                    public void onComplete(boolean isFinish, long currentTime) {
 
                     }
 
                     @Override
-                    public void onStart(boolean start, long currentTime) {
+                    public void onError(Object info, Object result) {
 
                     }
                 });
