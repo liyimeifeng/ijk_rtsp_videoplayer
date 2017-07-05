@@ -18,8 +18,8 @@ It could play rtsp stream by use ijkplayer 此工程基于IJKPlayer修改 当前
 
                     ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_CODEC, "skip_loop_filter", 48);
 
-//                    mHeaders.put("rtsp_transport", "tcp");
-//                    mHeaders.put("rtsp_flags", "prefer_tcp");
+                    //                    mHeaders.put("rtsp_transport", "tcp");
+                    //                    mHeaders.put("rtsp_flags", "prefer_tcp");
                     ////////////////////////////////////////////////////
                     ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_PLAYER, "packet-buffering", 0);
                     ijkMediaPlayer.setOption(IjkMediaPlayer.OPT_CATEGORY_FORMAT, "fflags", "nobuffer");
