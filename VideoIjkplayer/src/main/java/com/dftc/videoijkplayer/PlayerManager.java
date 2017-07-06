@@ -3,6 +3,8 @@ package com.dftc.videoijkplayer;
 
 import android.net.Uri;
 import android.util.Log;
+import android.view.View;
+
 import com.dftc.videoijkplayer.media.IRenderView;
 import com.dftc.videoijkplayer.media.IjkVideoView;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -81,11 +83,13 @@ public class PlayerManager {
         ijkVideoView.setOnCompletionListener(new IMediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(IMediaPlayer mp) {
+                Log.e(TAG, "播放完毕" );
                 playerStateListener.onComplete(true,System.currentTimeMillis());
                 //播放完毕释放资源
                 if(ijkVideoView != null){
                     ijkVideoView.stopPlayback();
                     ijkVideoView.release(true);
+                    ijkVideoView.setVisibility(View.INVISIBLE);
                 }
             }
         });
