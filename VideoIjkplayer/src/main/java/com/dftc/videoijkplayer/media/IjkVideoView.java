@@ -926,12 +926,16 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
         setRender(mCurrentRender);
     }
 
+    /**
+     * 自定义设置高宽比的方法
+     * @param aspectRatio
+     */
     public void setAspectRatio(int aspectRatio) {
         for (int i = 0; i < s_allAspectRatio.length; i++) {
             if (s_allAspectRatio[i]==aspectRatio) {
                 mCurrentAspectRatioIndex=i;
                 if (mRenderView != null){
-                    mRenderView.setAspectRatio(mCurrentAspectRatio);
+                    mRenderView.setAspectRatio(aspectRatio);
                 }
                 break;
             }

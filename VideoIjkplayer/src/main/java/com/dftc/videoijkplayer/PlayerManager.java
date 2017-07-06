@@ -1,13 +1,8 @@
 package com.dftc.videoijkplayer;
 
-import android.app.Activity;
 
+import android.net.Uri;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-
 import com.dftc.videoijkplayer.media.IRenderView;
 import com.dftc.videoijkplayer.media.IjkVideoView;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -39,25 +34,12 @@ public class PlayerManager {
 
     public PlayerManager(IjkVideoView ijkView){
         ijkVideoView = ijkView;
-        ViewGroup.LayoutParams params=(ViewGroup.LayoutParams)ijkVideoView.getLayoutParams();
-        Log.e(TAG, "PlayerManager: " + params );
-//        ijkVideoView.setScaleX(1.2f);
-//
-//        LinearLayout.LayoutParams ijkViewLp = new LinearLayout.LayoutParams(
-//        FrameLayout.LayoutParams.WRAP_CONTENT,
-//                FrameLayout.LayoutParams.WRAP_CONTENT,
-//                Gravity.FILL_HORIZONTAL);
-//        ijkVideoView.setLayoutParams(ijkViewLp);
-
-//         ijkVideoView.setAspectRatio(IRenderView.);
-        ijkVideoView.setAspectRatio(IRenderView.AR_MATCH_PARENT);
+        ijkVideoView.setAspectRatio(IRenderView.AR_MATCH_PARENT);  //默认拉伸填充整个布局
     }
-
 
 //    private static final class Instance{
 //        private static PlayerManager instance = new PlayerManager();
 //    }
-
 
     //单例
 //    public static PlayerManager getInstance(Activity activity){
@@ -67,10 +49,7 @@ public class PlayerManager {
 //        } catch (Throwable e) {
 //            Log.e("ijkPlayer", "loadLibraries error", e);
 //        }
-//
-//
 //        ijkVideoView = (IjkVideoView) activity.findViewById(R.id.main_video);
-//
 //        return Instance.instance;
 //    }
 
@@ -79,64 +58,83 @@ public class PlayerManager {
      * @param videoPath     接受本地视频路径，rtsp流链接
      */
     public void play(String videoPath,PlayerStateListener listener) {
-        url  = videoPath;
-        this.playerStateListener = listener;
 
-        Log.e(TAG, "play=======>" + ijkVideoView );
+        play(Uri.parse(videoPath),listener);
+//        url  = videoPath;
+//        this.playerStateListener = listener;
+//        ijkVideoView.setVideoPath(url);
+//        ijkVideoView.start();
+    }
 
-        ijkVideoView.setVideoPath(url);
+    public void play(Uri uri,PlayerStateListener listener){
+        playerStateListener = listener;
+        ijkVideoView.setVideoURI(uri);
         ijkVideoView.start();
 
+        getPlayState();
+    }
+
+    /**
+     * 设置播放状态监听
+     */
+    public void getPlayState(){
         ijkVideoView.setOnCompletionListener(new IMediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(IMediaPlayer mp) {
                 playerStateListener.onComplete(true,System.currentTimeMillis());
                 //播放完毕释放资源
-                ijkVideoView.stopPlayback();
-                ijkVideoView.release(true);
+                if(ijkVideoView != null){
+                    ijkVideoView.stopPlayback();
+                    ijkVideoView.release(true);
+                }
             }
         });
         ijkVideoView.setOnErrorListener(new IMediaPlayer.OnErrorListener() {
             @Override
             public boolean onError(IMediaPlayer mp, int what, int extra) {
-                   playerStateListener.onStart(false,System.currentTimeMillis(),-1);
-                    playerStateListener.onError(what,extra);
-                    return true;
+                playerStateListener.onStart(false,System.currentTimeMillis(),-1);
+                playerStateListener.onError(what,extra);
+                if(ijkVideoView != null){
+                    ijkVideoView.stopPlayback();
+                    ijkVideoView.release(true);
+                }
+                return true;
             }
         });
 
         ijkVideoView.setOnInfoListener(new IMediaPlayer.OnInfoListener() {
-                                        @Override
-                                        public boolean onInfo(IMediaPlayer mp, int what, int extra) {
-                                            switch (what) {
-                                                case IMediaPlayer.MEDIA_INFO_BUFFERING_START:
-                                                    Log.e(TAG, "MEDIA_INFO_BUFFERING_START");
-                                                    break;
-                                                case IMediaPlayer.MEDIA_INFO_BUFFERING_END:
-                                                    Log.e(TAG, "MEDIA_INFO_BUFFERING_END");
-                                                    break;
-                                                case IMediaPlayer.MEDIA_INFO_NETWORK_BANDWIDTH:
-                                                    Log.e(TAG, "MEDIA_INFO_NETWORK_BANDWIDTH");
-                                                    break;
-                                                case IMediaPlayer.MEDIA_ERROR_UNSUPPORTED:     //播放失败的情况下，返回false和相应信息
-                                                    playerStateListener.onStart(false,System.currentTimeMillis(),-1);
-                                                    playerStateListener.onError(MEDIA_ERROR_UNSUPPORTED," video format unsupport");
-                                                    break;
-                                                case IMediaPlayer.MEDIA_INFO_BAD_INTERLEAVING:   //播放失败的情况下，返回false和相应信息
-                                                    playerStateListener.onStart(false,System.currentTimeMillis(),-1);
-                                                    playerStateListener.onError(MEDIA_INFO_BAD_INTERLEAVING,"media bad interleaving");
-                                                    break;
-                                                case IMediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START:
-                                                    long currentTime = System.currentTimeMillis();
-                                                    videoTotalDuration = mp.getDuration();
-                                                    playerStateListener.onStart(true,currentTime,mp.getDuration());
-                                                    Log.e(TAG, "MEDIA_INFO_VIDEO_RENDERING_START" + "====="+  mp.getDuration());
-                                                    break;
-                                            }
-                                            return false;
-                                        }
-    });
+            @Override
+            public boolean onInfo(IMediaPlayer mp, int what, int extra) {
+                switch (what) {
+                    case IMediaPlayer.MEDIA_INFO_BUFFERING_START:
+                        Log.e(TAG, "MEDIA_INFO_BUFFERING_START");
+                        break;
+                    case IMediaPlayer.MEDIA_INFO_BUFFERING_END:
+                        Log.e(TAG, "MEDIA_INFO_BUFFERING_END");
+                        break;
+                    case IMediaPlayer.MEDIA_INFO_NETWORK_BANDWIDTH:
+                        Log.e(TAG, "MEDIA_INFO_NETWORK_BANDWIDTH");
+                        break;
+                    case IMediaPlayer.MEDIA_ERROR_UNSUPPORTED:     //播放失败的情况下，返回false和相应信息
+                        playerStateListener.onStart(false,System.currentTimeMillis(),-1);
+                        playerStateListener.onError(MEDIA_ERROR_UNSUPPORTED," video format unsupport");
+                        break;
+                    case IMediaPlayer.MEDIA_INFO_BAD_INTERLEAVING:   //播放失败的情况下，返回false和相应信息
+                        playerStateListener.onStart(false,System.currentTimeMillis(),-1);
+                        playerStateListener.onError(MEDIA_INFO_BAD_INTERLEAVING,"media bad interleaving");
+                        break;
+                    case IMediaPlayer.MEDIA_INFO_VIDEO_RENDERING_START:
+                        long currentTime = System.currentTimeMillis();
+                        videoTotalDuration = mp.getDuration();
+                        playerStateListener.onStart(true,currentTime,mp.getDuration());
+                        Log.e(TAG, "MEDIA_INFO_VIDEO_RENDERING_START" + "====="+  mp.getDuration());
+                        break;
+                }
+                return false;
+            }
+        });
     }
+
 
     /**
      * 获取视频总时长
@@ -192,7 +190,7 @@ public class PlayerManager {
         void onComplete(boolean isFinish,long currentTime);
 
         /**
-         * 播放失败回调，返回相应信息
+         * 播放失败回调，返回相应失败信息
          * @param info
          * @param result
          */
