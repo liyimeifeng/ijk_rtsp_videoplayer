@@ -20,7 +20,7 @@ public class TestActivity extends AppCompatActivity {
     private PlayerManager playerManager;
     private String url = "rtsp://192.168.2.67:8554/MainStream";    //监控摄像头测试可行
     private String url2 = "file:///storage/emulated/0/Download/thor-mp4.mp4";       //本地高清mp4视频，测试可行
-        private String url3 = "file:///storage/emulated/0/Download/split.avi";      //avi可行
+    private String url3 = "file:///storage/emulated/0/Download/split.avi";      //avi可行
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
