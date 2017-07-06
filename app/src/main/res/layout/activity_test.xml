@@ -19,7 +19,7 @@
         android:layout_height="wrap_content" />
 
     <com.dftc.videoijkplayer.media.IjkVideoView
-        android:id="@+id/video_view"
+        android:id="@+id/test_video_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
