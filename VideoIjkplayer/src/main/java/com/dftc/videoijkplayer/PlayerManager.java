@@ -39,22 +39,6 @@ public class PlayerManager {
         ijkVideoView.setAspectRatio(IRenderView.AR_MATCH_PARENT);  //默认拉伸填充整个布局
     }
 
-//    private static final class Instance{
-//        private static PlayerManager instance = new PlayerManager();
-//    }
-
-    //单例
-//    public static PlayerManager getInstance(Activity activity){
-//        try {
-//            IjkMediaPlayer.loadLibrariesOnce(null);
-//            IjkMediaPlayer.native_profileBegin("libijkplayer.so");
-//        } catch (Throwable e) {
-//            Log.e("ijkPlayer", "loadLibraries error", e);
-//        }
-//        ijkVideoView = (IjkVideoView) activity.findViewById(R.id.main_video);
-//        return Instance.instance;
-//    }
-
     /**
      * 开始播放
      * @param videoPath     接受本地视频路径，rtsp流链接
