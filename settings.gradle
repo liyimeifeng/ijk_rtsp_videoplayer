@@ -1,1 +1,1 @@
-include ':app', ':VideoIjkplayer'
+include ':app', ':VideoIjkplayer','libijkplayer'
