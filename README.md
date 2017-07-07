@@ -1,5 +1,6 @@
-rtsp_player
-目前支持的视频格式：rtsp、MP4、avi、rmvb、mkv
+rtsp_player**目前支持的视频格式：rtsp、MP4、avi、rmvb、mkv**
+
+**该工程目前播放视频无恙，但播放前有两秒左右的白屏现象。**
 
 It could play rtsp stream by use ijkplayer 此工程基于IJKPlayer修改 当前IJKPlayer使用的库版本为k0.7.9 修改IJKPlayer的so文件支持rtsp 协议。 可以根据具体的需求修改参数
 
