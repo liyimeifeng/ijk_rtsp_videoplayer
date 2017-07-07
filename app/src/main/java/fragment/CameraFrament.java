@@ -2,6 +2,7 @@ package fragment;
 
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -25,6 +26,7 @@ public class CameraFrament extends Fragment {
     private PlayerManager playerManager;
     private String url = "rtsp://192.168.2.67:8554/MainStream";    //监控摄像头测试可行
     private Timer timer = new Timer();
+    private Handler handler = new Handler();
     public CameraFrament() {
         // Required empty public constructor
     }
@@ -43,7 +45,7 @@ public class CameraFrament extends Fragment {
         play();
         Log.e(TAG, "开始播放监控画面" );
 
-//        nextFragment();
+        nextFragment();
     }
 
     @Override
@@ -53,14 +55,21 @@ public class CameraFrament extends Fragment {
     }
 
     public void nextFragment(){
-        TimerTask task = new TimerTask() {
+        /*TimerTask task = new TimerTask() {
             @Override
             public void run() {
-           getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new VideoFragment()).commitAllowingStateLoss();
+           getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new VideoFragment()).commit();
 
             }
         };
-        timer.schedule(task,0,10 * 1000);
+        timer.schedule(task,10,10 * 1000);*/
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,new VideoFragment()).commit();
+            }
+        }, 30*1000);
     }
 
     private void play(){
