@@ -20,7 +20,7 @@ public class PlayerManager {
 
     private final static String TAG = PlayerManager.class.getSimpleName();
     private String url;
-    private final IjkVideoView ijkVideoView;
+    private static IjkVideoView ijkVideoView;
     private PlayerStateListener playerStateListener;
     private long videoTotalDuration;
     private static int MEDIA_ERROR_UNSUPPORTED = 0;
@@ -40,21 +40,22 @@ public class PlayerManager {
         ijkVideoView.setAspectRatio(IRenderView.AR_MATCH_PARENT);  //默认拉伸填充整个布局
     }
 
-//    private static final class Instance{
-//        private static PlayerManager instance = new PlayerManager();
-//    }
+    private static final class Instance{
+        private static PlayerManager instance = new PlayerManager(ijkVideoView);
+    }
 
     //单例
-//    public static PlayerManager getInstance(Activity activity){
-//        try {
-//            IjkMediaPlayer.loadLibrariesOnce(null);
-//            IjkMediaPlayer.native_profileBegin("libijkplayer.so");
-//        } catch (Throwable e) {
-//            Log.e("ijkPlayer", "loadLibraries error", e);
-//        }
-//        ijkVideoView = (IjkVideoView) activity.findViewById(R.id.main_video);
-//        return Instance.instance;
-//    }
+    public static PlayerManager getInstance(IjkVideoView ijkview){
+        try {
+            IjkMediaPlayer.loadLibrariesOnce(null);
+            IjkMediaPlayer.native_profileBegin("libijkplayer.so");
+        } catch (Throwable e) {
+            Log.e("ijkPlayer", "loadLibraries error", e);
+        }
+        ijkVideoView = ijkview;
+        ijkVideoView.setAspectRatio(IRenderView.AR_MATCH_PARENT);
+        return Instance.instance;
+    }
 
     /**
      * 开始播放
